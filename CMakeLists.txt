@@ -22,6 +22,7 @@ set(SRC_FILES
         ${IMGUI_SOURCE_DIR}/imgui_draw.cpp
         ${IMGUI_SOURCE_DIR}/imgui_widgets.cpp
         ${IMGUI_SOURCE_DIR}/imgui_tables.cpp
+        ${IMGUI_SOURCE_DIR}/misc/cpp/imgui_stdlib.cpp
 )
 set(H_FILES
         ${IMGUI_SOURCE_DIR}/imgui.h
@@ -30,6 +31,7 @@ set(H_FILES
         ${IMGUI_SOURCE_DIR}/imstb_rectpack.h
         ${IMGUI_SOURCE_DIR}/imstb_textedit.h
         ${IMGUI_SOURCE_DIR}/imstb_truetype.h
+        ${IMGUI_SOURCE_DIR}/misc/cpp/imgui_stdlib.h
 )
 
 set(IMGUI_FEATURES "")
